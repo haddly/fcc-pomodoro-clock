@@ -1,0 +1,53 @@
+#time {
+  color: red;
+}
+
+input {text-align:center;width:40%;}
+#pause-time{color:red;}
+#div-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: dotted;
+  border-color: green;
+  display: inline-block;
+}
+#div-right {
+  float: right;
+  width: 50%;
+  height: 400px;
+  background-image: url("http://res.cloudinary.com/dftfjmigs/image/upload/v1509443785/tomato-svgrepo-com_uuqrv6.svg");
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#div-left-hidden {
+  float: left;
+  width: 50%;
+  height: 400px;
+  border: dotted;
+  border-color: green;
+  display: inline-block;
+  background-image: url("http://res.cloudinary.com/dftfjmigs/image/upload/v1509443785/tomato-svgrepo-com_uuqrv6.svg");
+  display: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+  #middle_text  {
+       float:50%;
+       height:50%;
+       text-align: center;
+       vertical-align: middle;
+}
+#div-right-hidden {
+  float: right;
+  width: 50%;
+  height: 400px;
+  border: dotted;
+  border-color: green;
+  display: none;
+}
+button {
+  margin: 10px;
+}

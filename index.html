@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Build a Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <audio id="audio_">
+  <source src="http://res.cloudinary.com/dftfjmigs/video/upload/v1509880573/analog-watch-alarm_daniel-simion-_AudioTrimmer.com_y4vmdk.mp3" type="audio/mpeg">
+  your browser doesn't support this audio
+</audio>
+<div class="container-fluid">
+  <h1 class="text-primary text-center">Build a Pomodoro Clock</h1>
+  <hr />
+  <h2 class="text-success text-center">FreeCodeCamp App</h2>
+  <hr />
+  <div id="div-left">
+    <div class="text-center"><button class="btn btn-primary" id="start_timer" onclick="pomodoro.start_timer()">start timer</button><button class="btn btn-warning" id="pause" onclick="pomodoro.pause_timer()">pause timer</button>
+      <button class="btn btn-danger" id="reset" onclick="pomodoro.reset_timer()">reset timer</button></div>
+    <h1> <div class="text-center" id="time">25 minutes</div></h1>
+    <div class="input">
+      <h5 class="text-center">Don't want 25 minutes? Enter another time here (in minutes)
+      <input class="text-center" type="number" id="input_time"><br> then click "start timer"</input><br>
+      <hr />
+    <h1 class="text-primary text-center">Break</h1>
+    <h1 class="text-info text-center" id="break_time">5 minutes</h1>
+    <h5 class="text-center">Don't want 5 minutes? Enter another time here (in minutes)<br>
+      <input class="text-center" type="number" id="input_break"></input>
+    </div>
+  </div>
+  <div id="div-left-hidden">
+
+  </div>
+
+  <div id="div-right">
+    
+
+  </div>
+  <!--div-right-->
+  <div id="div-right-hidden">
+    <h1 class="text-center">Your break ends in</h1><hr />
+    
+<h1 id="middle_text"></h1><hr />
+    <button class="btn btn-danger" onclick="pomodoro.refresh_page()">cancel whole timer</button>
+  </div>
+  <!--div-right-hidden-->
+
+
+  <!--<ul>
+    <li>https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_settimeout_cleartimeout2</li>
+    
+ 
+    <li>https://www.w3schools.com/jsref/met_win_cleartimeout.asp</li>  <li>https://www.w3schools.com/jsref/met_win_settimeout.asp</li>
+    <li>https://www.w3schools.com/jsref/met_win_setinterval.asp</li>-->
+
+
+</div>
+<!--container-fluid-->
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
